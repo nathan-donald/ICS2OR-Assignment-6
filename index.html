@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--This is a comment-->
+<html lang="en=ca">
+  <head>
+  <link rel="stylesheet" href="mystyle.css">
+  <meta charset="utf-8">
+  <meta name="decription" content="My website, with button">
+  <meta name="keywords" content="MTHS, website">
+  <meta name="author" content="Nathan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta https-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Program</title>
+  </head>
+    <body>
+    <h1>Hello, World!</h1>
+    <p>Below is a pizza price calulator. Enter a pizza size (only large & extra large), then enter
+    the number of toppings you desire (1, 2, 3 or 4), and it will caluculate the price.</p>
+    <h1>Select pizza size</h1>
+    <div>
+      <input type="radio" id="large" name="pizza" value="6">
+      <label for="large">Large ($6.00)</label><br>
+      <input type="radio" id="exlarge" name="pizza" value="10">
+      <label for="exlarge">Extra Large ($10.00)</label><br>
+      <br>
+      <h1>Select amount of toppings</h1>
+      </div>
+      <div>
+      <input type="radio" id="top1" name="topping" value="1">
+      <label for="top1">1 topping ($1.00)</label><br>
+      <input type="radio" id="top2" name="topping" value="1.75">
+      <label for="top2">2 toppings ($1.75)</label><br>
+      <input type="radio" id="top3" name="topping" value="2.5">
+      <label for="top3">3 toppings ($2.50)</label><br>
+      <input type="radio" id="top4" name="topping" value="3.35">
+      <label for="top4">4 toppings ($3.35)</label><br>
+      </div>
+      <br>
+    <button onclick="myFunction()">Submit Order</button>
+    <p id="outputprice"></p>
+    <p id="outputtax"></p>
+    <p id="outputtotal"></p>
+    <script src="myscript.js"></script>
+    </body>
+</html>
